@@ -99,9 +99,25 @@ ul#miUL li a {
 
 }
 
+.miUL2  {
+    list-style: none; /*elimina los puntos de la lista*/
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(157, 90, 128);
+    align-items: center;
+
+}
 
 
 h1 {
+    font-size: 40px;
+    color: black;
+    font-family: "Sono" cursive;
+}
+body p a {
     font-size: 40px;
     color: black;
     font-family: "Sono" cursive;
