@@ -1,0 +1,15 @@
+/*agrego otro fondo a QUIENES SOMOS para cambiarlo a gusto... elisa*/
+body{
+    background-color: white;
+}
+
+/*pongo acá los estilos de personal... ELISA*/
+.divEjemplo {
+    border: 1px rgb(255, 0, 0) solid;
+    /*ESTO ESTA COMENTADO PORQUE GENERABA UN ERROR... ELISA*/
+    /*border: 1px blue dotted padding: 10px 5px; 
+    margin: 50px;  valor general 
+    margin: 30px 80px;  arriba/abajo - izquierda/derecha */
+    margin: 200px 300px 80px 300px; /* arriba - derecha - abajo - izquierda */
+    padding: 50px; /* valor general */
+}

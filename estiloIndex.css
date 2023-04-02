@@ -123,14 +123,6 @@ body p a {
     font-family: "Sono" cursive;
 }
 
-.divEjemplo {
-    border: 1px rgb(255, 0, 0) solid;
-    border: 1px blue dotted padding: 10px 5px; 
-    margin: 50px; /* valor general */
-    margin: 30px 80px; /* arriba/abajo - izquierda/derecha */
-    margin: 10px 300px 80px 300px; /* arriba - derecha - abajo - izquierda */
-    padding: 50px; /* valor general */
-}
 
 .linkBlock {
     display: block;
@@ -141,10 +133,10 @@ body p a {
 
 }
 
-#cuadro { 
+/*#cuadro { 
     border: 1px blue dotted padding: 10px 5px; 
 
-}
+}*/
 .material-symbols-outlined{
  list-style: none;
     display: flex;
@@ -159,7 +151,7 @@ body p a {
 .probandoFlex1 {
     list-style: none;
     background-color: orange;
-    with: 0%;
+    width: 0%;
     height: 0%;
     display: flex;
     flex-direction: row;
@@ -177,8 +169,25 @@ body p a {
     background-color: lawngreen;
     display: flex;
     flex-direction: row;
-    margin: 50px  50px ; /* arriba - derecha - abajo - izquierda */
+    margin: 0px  0px 10px ; /* arriba - derecha - abajo - izquierda */
     justify-content: space-around;
     color: black;
+    position:absolute;
+    bottom: 0;
+    width: 99%;
+}
+/*Agrego estilo al home 1/4... elisa*/
+body {
+    background-color: rgb(109, 175, 44);
+}
+main img {
+    padding: 15px;
+    box-shadow: 5px 5px 15px black;
+    width: 98%;
+    height: 140%;
+    border-radius: 20px;
+    display: flex;
+    
+    justify-content: space-between;
 
 }
