@@ -1,15 +1,116 @@
-/*agrego otro fondo a QUIENES SOMOS para cambiarlo a gusto... elisa*/
-body{
-    background-color: white;
+header {
+    display: flex; /*activa las propiedades flex-box*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gainsboro;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+header nav ul {
+    list-style: none; /*elimina los puntos de la lista*/
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+
 }
 
-/*pongo acá los estilos de personal... ELISA*/
-.divEjemplo {
-    border: 1px rgb(255, 0, 0) solid;
-    /*ESTO ESTA COMENTADO PORQUE GENERABA UN ERROR... ELISA*/
-    /*border: 1px blue dotted padding: 10px 5px; 
-    margin: 50px;  valor general 
-    margin: 30px 80px;  arriba/abajo - izquierda/derecha */
-    margin: 200px 300px 80px 300px; /* arriba - derecha - abajo - izquierda */
-    padding: 50px; /* valor general */
+/*agrego fondo a QUIENES SOMOS para cambiarlo a gusto... elisa*/
+body{
+    background-color: white;
+    background-image: url(IMGfondo2.jpg);
+    background-size: 100%;
+}
+
+.elementoBlock {
+    display: block;
+}
+
+.elementoInline {
+    display: inline;
+}
+
+.rojo img {
+    width: 200px;
+    height: 150px;
+}
+
+.azul {
+    width: 200px;
+    height: 150px;
+}
+
+.amarillo {
+    width: 200px;
+    height: 150px;
+}
+
+.verde {
+    width: 200px;
+    height: 150px;
+}
+
+.violeta {
+    width: 200px;
+    height: 150px;
+}
+
+div.divCuadrado {
+    width: 350px;
+    height: 350px;
+    color: rgb(0, 0, 0);
+    
+}
+
+div#contenedorEjercicio {  
+    margin: 10% 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.desactivo {
+    display: none;
+}
+.miboton {
+    margin: 0px 100px;
+    position: relative;
+    top: 300px; /*baja*/
+    left: 800px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(186, 246, 173);
+}
+  
+  #anterior {
+    right: 20px;
+  }
+  
+  #siguiente {
+    left: 200px;    
+  }
+
+  div#contenedorEjercicio h2 {
+    font-size: 30px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+  } 
+
+  button img {
+    padding: 7px ;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer {    
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: row;
+    margin: 0px  0px 10px ; /* arriba - derecha - abajo - izquierda */
+    justify-content: space-around;
+    color: black;
+    position:absolute;
+    bottom: 0;
+    width: 99%;
 }
