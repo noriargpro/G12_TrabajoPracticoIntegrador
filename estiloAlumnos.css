@@ -2,3 +2,10 @@
 body{
     background-color: white;
 }
+div#contenedorEjercicio{
+    display: flex;
+}
+
+.desactivo{
+    display:none;
+}
