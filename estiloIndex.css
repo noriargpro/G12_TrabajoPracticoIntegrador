@@ -1,60 +1,6 @@
 /* Esto es un comentario */
 
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
-
-
-/* SELECTOR UNIVERSAL */
-* {
-   color: red; 
-   color: rgb(0, 0, 255);
-   font-family: 'Tilt Warp', cursive;
-   /*
-    margin: 0;
-    padding: 0;
-    color: rgba(0, 100, 0, 0.3);
-    color: #963232;
-   */ 
-}
-
-/* SELECTOR DE ETIQUETA */
-h1 {
-    color: rgb(230, 0, 255);
-}
-
-li {
-    color: orange;
-}
-
-main {
-    height: 450px;
-}
-
-h2 {
-    color: black;
-    width: 50%;
-}
-
-/* SELECTOR DE ID (IDENTIFICADOR) */
-#subtitulo2 {
-    color:rgb(0, 0, 0);
-}
-
-/* SELECTOR DE CLASES */
-.miClaseH2 {
-    color: aquamarine;
-    align-items: center;
-
-}
-
-.otraClaseH2 {
-    color: brown;
-}
-
-/* SELECTOR COMBINADO 
-.fondoClaseH2, .otroFondoClaseH2, #contacto {
-    background-color: blueviolet;
-}*/
-
 header {
     display: flex; /*activa las propiedades flex-box*/
     flex-direction: row;
@@ -74,16 +20,17 @@ header nav ul {
 
 }
 
+main {
+    height: 450px;
+}
 main section div {
- border-block: solid black;
+ border-block: 1px solid black;
  writing-mode: horizontal-rl;
  color: black;
  background-color: lawngreen;
  width: 280px;
  height: 450px;
  justify-items: center;
- 
-
  justify-content: space-around;
  border-radius: 20px;
  box-shadow: 5px 5px 15px black;
@@ -96,11 +43,11 @@ ul#miUL li a {
     text-decoration: none;
     color: black;
     align-items: center;
-
+    font-family: "Sono" cursive;
 }
 
-.miUL2  {
-    list-style: none; /*elimina los puntos de la lista*/
+ /* .miUL2  {
+    list-style: none; 
     display: flex;
     flex-direction: row;
     gap: 75px;
@@ -108,8 +55,8 @@ ul#miUL li a {
     text-decoration: none;
     color: rgb(157, 90, 128);
     align-items: center;
+ } */
 
-}
 
 
 h1 {
@@ -133,36 +80,35 @@ body p a {
 
 }
 
-/*#cuadro { 
+/* /*#cuadro { 
     border: 1px blue dotted padding: 10px 5px; 
 
 }*/
-.material-symbols-outlined{
+/* .material-symbols-outlined{
  list-style: none;
     display: flex;
     flex-direction: row;
     gap: 75px;
 
 
-}
+} */
 
 
 
-.probandoFlex1 {
+ /* .probandoFlex1 {
     list-style: none;
     background-color: orange;
     width: 0%;
     height: 0%;
     display: flex;
     flex-direction: row;
-    /*height: 30vh;*/
+    height: 30vh;
     flex-wrap: wrap ;
-    margin: 50px  50px ; /* arriba - derecha - abajo - izquierda */
+    margin: 50px  50px ; 
     justify-content: space-around;
-    
+  
 
-
-}
+}  */
 
 .footer {
     
@@ -186,8 +132,8 @@ main img {
     width: 98%;
     height: 140%;
     border-radius: 20px;
-    display: flex;
-    
+    display: flex;    
     justify-content: space-between;
 
 }
+
