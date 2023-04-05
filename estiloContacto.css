@@ -1,0 +1,112 @@
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+} 
+.card { 
+    display: flex;
+    flex-direction: column;    
+    background-color: lawngreen;
+  
+     border: 2px solid #59a4ee; 
+    border-radius: 0.25rem;
+
+    
+}
+#alinearTitulo{
+    display: flex;
+   
+    margin-left: 100px;
+   
+}
+
+p{
+    color:black;
+    
+}
+ 
+h2{
+    margin-top: 20px;
+ 
+}
+
+ .redes{  
+    display: flex;
+    font-size: 40px;
+    justify-content:left;
+      
+} 
+
+.red-facebook{
+    color:#3b5998;;
+    margin: 0 0.5rem;
+}
+.red-twitter {
+    color: #1da1f2;
+    margin: 0 0.5rem;
+}
+.red-instagram{
+    color: #405de6;
+    margin: 0 0.5rem;
+}
+
+input, textarea,button {      
+       font-size: 20px;
+       margin: 0;
+       padding: 10px;
+       border: 2px solid #59a4ee; 
+       border-radius: 0.25rem;
+    }
+button{
+    display: flex;
+    width: 100%;     
+    border-radius: 0.25rem;  
+    background-color: lawngreen;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.columna {
+        display: flex;
+        flex-direction: column;        
+        margin-top:0px;
+        margin-left: 40px;
+        padding-right: 50px;
+       
+}
+.columna2 {
+        display: flex;
+        flex-direction:column;
+        width: 50%;
+        margin-top: 0; 
+        margin-left: 100px;
+        margin-right: 40px; 
+      
+    }
+
+ .row {
+        display: flex;      
+        align-items:flex-start;
+        justify-content:space-around;
+    }  
+ 
+
+    
+form {
+        margin-top: 0;
+        display:flex;
+        flex-direction:column;
+      
+
+    }
+    
+      
+label{
+        display: flex;
+        font-size: 20px;
+        margin-top:0px ;
+        margin-bottom: 10px;
+             
+    }
+   
