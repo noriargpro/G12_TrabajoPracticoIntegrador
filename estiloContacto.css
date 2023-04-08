@@ -6,16 +6,14 @@
 .card { 
     display: flex;
     flex-direction: column;    
-    background-color: lawngreen;
-  
-     border: 2px solid #59a4ee; 
+    background-color: lawngreen;  
+    border: 2px solid #59a4ee; 
     border-radius: 0.25rem;
 
     
 }
 #alinearTitulo{
-    display: flex;
-   
+    display: flex;   
     margin-left: 100px;
    
 }

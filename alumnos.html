@@ -42,7 +42,39 @@
                     <embed src="DatosPersonales.pdf" type="application/pdf"   height="300px" width="100%">
                 </div>
                 <div id="elemento-2" class="divCuadrado azul desactivo">Materias</div>
-                <div id="elemento-3" class="divCuadrado amarillo desactivo">Inscripciones</div>
+
+                <div id="elemento-3" class="divCuadrado amarillo desactivo"><h2>FORMULARIO DE INSCRIPCION</h2>
+                <h3>Si tienes materias previas inscribite acá</h3>
+                    <form id="step-1" >
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>                 
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>                      
+                        <label for="materia">Materia:</label>
+                        <select type="text" name="materia" id="materia">
+                            <option value="Seleccione Materia">Seleccione materia</option> 
+                            <option value="Ingles">INGLES</option> 
+                            <option value="Lengua">LENGUA</option>
+                            <option value="Historia">HISTORIA</option>
+                            <option value="Matematica">MATEMATICA</option>
+                            <option value="Contabilidad">CONTABILIDAD</option>
+                            <option value="Biologia">BIOLOGIA</option>
+                            <option value="Informatica">INFORMATICA</option>
+                            <option value="Tutoria">TUTORIA</option>
+                        </select> 
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>                                            
+                        <button type="button" id="next-btn">Enviar</button>
+                        <button type="reset" id="back-btn">Borrar</button> 
+                    </form>
+                               
+                    <form id="step-2" >
+                       <h3>Datos de su inscripcion:</h3>
+                        <div id="summary"></div>
+                        <button type="submit" id="imprimir">IMPRIMIR</button>
+                       
+                    </form>
+                </div>
                 <div id="elemento-4" class="divCuadrado verde desactivo">Calendario
                     <iframe src="https://calendar.google.com/calendar/embed?src=4f5b0c0457ccaf478c7576cb2aaf53885adebe4c1dccd1a74a1ba97b0edcb05a%40group.calendar.google.com&ctz=America%2FArgentina%2FBuenos_Aires" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
