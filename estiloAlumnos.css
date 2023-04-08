@@ -73,3 +73,14 @@ main{
     margin-left: 50px;
    
 }
+/************************************/
+
+table{
+	width:100%; 
+	border-collapse:collapse;
+}
+td{
+	border:2px solid black;
+}
+
+
