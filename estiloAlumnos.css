@@ -1,10 +1,14 @@
 /*agrego otro fondo a ALUMNOS para cambiarlo a gusto*/
 body{
-    background-color: white;
+    background-color: #065730;
     
 }
 div#contenedorEjercicio{
     display: flex;
+}
+
+h1{
+    font-family:'Montserrat' ;
 }
 
 .desactivo{
@@ -13,7 +17,7 @@ div#contenedorEjercicio{
 /**************Estilo formulario inscripcion************************/      
 form {
     display: flex;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 0%;
     padding: 10px 50px 40px 50px;
     border: 2px solid #ccc;
@@ -76,6 +80,7 @@ main{
 /************************************/
 
 table{
+    margin: 30px;
 	width:100%; 
 	border-collapse:collapse;
 }
