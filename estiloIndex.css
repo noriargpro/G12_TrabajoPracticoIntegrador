@@ -43,17 +43,7 @@ ul#miUL li a {
     font-family: "Montserrat";
 }
 
- /* .miUL2  {
-    list-style: none; 
-    display: flex;
-    flex-direction: row;
-    gap: 75px;
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(157, 90, 128);
-    align-items: center;
- } */
-
+ 
 
 
 
@@ -65,35 +55,8 @@ ul#miUL li a {
 }
 
 
-/* /*#cuadro { 
-    border: 1px blue dotted padding: 10px 5px; 
-
-}*/
-/* .material-symbols-outlined{
- list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 75px;
 
 
-} */
-
-
-
- /* .probandoFlex1 {
-    list-style: none;
-    background-color: orange;
-    width: 0%;
-    height: 0%;
-    display: flex;
-    flex-direction: row;
-    height: 30vh;
-    flex-wrap: wrap ;
-    margin: 50px  50px ; 
-    justify-content: space-around;
-  
-
-}  */
 
 .footer {
 
