@@ -1,6 +1,8 @@
 /*agrego otro fondo a ALUMNOS para cambiarlo a gusto*/
 body{
+    
     background-color: #065730;
+    margin: 0;
     
 }
 div#contenedorEjercicio{
@@ -73,10 +75,10 @@ h2{
 }
 
 /************************************/
-main{
+ main{
     margin-left: 50px;
    
-}
+} 
 /************************************/
 
 table{
