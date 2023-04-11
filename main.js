@@ -50,7 +50,10 @@ document.addEventListener("DOMContentLoaded",() =>{
          elementosDiv[posicionAnterior].classList.add("activo");
 });
 });
-//***************formulario de inscripcion ***************** */
+
+
+/****************FORMULARIO INSCRIPCION*************************/
+
 const nextBtn = document.querySelector("#next-btn");
 const backBtn = document.querySelector("#back-btn");
 const step1 = document.querySelector("#step-1");
@@ -75,4 +78,5 @@ nextBtn.addEventListener("click", function() {
    step2.style.display = "block";
 });
 
-/*************************** */
+/**********fin formulario inscripcion ***************/
+
