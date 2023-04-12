@@ -1,22 +1,46 @@
+header {
+    display: flex; /*activa las propiedades flex-box*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gainsboro;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgb(90, 89, 89);
+    font-family:'Montserrat';
+    padding: 25px;
+    margin: 10px 10px;
+    
+}
+
 .card-body {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
+    font-family:'Montserrat';
 } 
 .card { 
     display: flex;
     flex-direction: column;    
-    background-color: lawngreen;  
-    border: 2px solid #59a4ee; 
+    background-color: rgb(152, 170, 133);  
+    border: 2px solid #000000; 
     border-radius: 0.25rem;
+    padding: 15px;
+    font-family:'Montserrat';
+
 
     
 }
 #alinearTitulo{
     display: flex;   
     margin-left: 100px;
+    font-family:'Montserrat';
    
 }
+
+main {
+    height: 450px;
+}
+
 
 p{
     color:black;
@@ -52,16 +76,17 @@ input, textarea,button {
        font-size: 20px;
        margin: 0;
        padding: 10px;
-       border: 2px solid #59a4ee; 
+       border: 2px solid #000000; 
        border-radius: 0.25rem;
     }
 button{
     display: flex;
     width: 100%;     
     border-radius: 0.25rem;  
-    background-color: lawngreen;
+    background-color: rgb(134, 156, 111);
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
     
 }
 
@@ -106,5 +131,10 @@ label{
         margin-top:0px ;
         margin-bottom: 10px;
              
-    }
+}
+
+body{
+    margin:0;
+
+}
    
