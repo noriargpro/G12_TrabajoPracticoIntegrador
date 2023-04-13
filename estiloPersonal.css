@@ -98,16 +98,17 @@ div#contenedorEjercicio {
 }*/
   
   #anterior {
-    margin-left: 600px ;
+    margin-left: 500px ;
     position: relative;
     top: 300px; /*baja*/
     left: 600px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     border: none;
-    background-color: rgb(186, 246, 173);
+    background-color: rgb(186, 246, 173, 0.2);
     right: 15px;
+    
   }
   
   #siguiente {
@@ -115,11 +116,11 @@ div#contenedorEjercicio {
     position: relative;
     top: 300px; /*baja*/
     left: 600px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     border: none;
-    background-color: rgb(186, 246, 173);
+    background-color: rgb(186, 246, 173, 0.2);
     left: 200px;    
   }
 
@@ -132,11 +133,15 @@ div#contenedorEjercicio {
   } 
 
   button img {
-    padding: 7px ;
+    margin-left: 7px;
     display: flex;
-    justify-content: space-evenly;
-  }
 
+  }
+    
+       
+  
+
+  
   .footer {
 
     font-family: "montserrat";
