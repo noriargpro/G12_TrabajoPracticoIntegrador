@@ -70,7 +70,7 @@ body{
 
 div.divCuadrado {
     width: 550px;
-    height: 400px;
+    height: 300px;
     color: rgb(0, 0, 0);
     font-family: cursive 1px;
          
@@ -156,7 +156,7 @@ p {
     }
 .img-normalizada {
     
-    width: 500px;
+    width: 550px;
 	height: 300px;
     object-fit: cover;
        }
