@@ -44,8 +44,10 @@ body{
 
 div#contenedorEjercicio{
     display: flex;
+    justify-content: center;
     text-align: 100px;
-    margin-left: 100px;
+    margin-left: 10px;
+    color: gainsboro;
 }
 
 h1{
@@ -63,6 +65,7 @@ form {
     padding: 10px 50px 40px 50px;
     border: 2px solid #ccc;
     margin:50px;
+    margin-right: 140px;
 
 }
 
@@ -82,8 +85,8 @@ input, select{
 h2{
     margin-top: 2%;
     text-align: 100px;
-    margin-left: 100px;
-
+   margin-left: 0px;
+    color: gainsboro;
 }
 
 h3{
@@ -140,7 +143,7 @@ h3{
     list-style: none;
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: blanchedalmond;
     font-family: "Montserrat";
 }
  
