@@ -14,7 +14,7 @@ header {
         
 }
 
-h2{
+h2#bienvenidos{
     position:absolute;
     top:30%; right: 15%;
     z-index: 0;
