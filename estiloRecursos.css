@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+header {
+    display: flex; /*activa las propiedades flex-box*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gainsboro;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgb(90, 89, 89);
+    font-family:'Montserrat';
+    padding: 25px;
+        
+}
+
+ul#miUL li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-family: "Montserrat";
+}
+
+ul#miUL li a:hover{
+    color:#065730;
+    font-size: 18px;    
+    font-weight: 100;
+    text-decoration: underline 2px;
+    text-underline-position: under;
+    text-decoration-skip: ink;   
+
+}
+
+.retroceso {
+    display: flex;  
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15%;
+    width: 15%;
+  }
+   
+
+  .center {
+    margin: auto;
+    margin-top: 50px;
+  }
+  #buscadorlibro {
+    font-family: 'Righteous', sans-serif;
+    font-size: 3rem;
+  }
+  h3 {
+    font-family: 'Righteous', sans-serif;  
+  }
+  .book-list {
+    margin-top: 50px;
+    visibility: hidden;  /* hace que solo sea visible cuando se realizala busqueda*/
+    margin-left:200px;
+    margin-right:200px;
+  }
+  .footer {  
+    font-family: "Montserrat";    
+    background-color: rgb(197, 195, 195);
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;  
+  } 
