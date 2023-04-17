@@ -59,6 +59,7 @@ ul#miUL li a:hover{
     margin-left:200px;
     margin-right:200px;
   }
+  
    .footer {  
     font-family: "Montserrat";    
     background-color: rgb(197, 195, 195);
@@ -73,4 +74,7 @@ ul#miUL li a:hover{
    
 
   }  
- 
+ .btn-primary {
+    background-color: rgb(55, 179, 138) !important;
+    border-color: rgb(24, 71, 55) !important;
+  }
